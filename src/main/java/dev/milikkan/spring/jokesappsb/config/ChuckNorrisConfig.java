@@ -4,10 +4,13 @@ import guru.springframework.norris.chuck.ChuckNorrisQuotes;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-@Configuration
+/*
+This config class is useless now, because config is moved out to a XML config file.
+ */
+//@Configuration
 public class ChuckNorrisConfig {
 
-    @Bean
+    //@Bean
     public ChuckNorrisQuotes chuckNorrisQuotes() {
         return new ChuckNorrisQuotes();
     }
